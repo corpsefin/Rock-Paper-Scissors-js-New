@@ -1,0 +1,58 @@
+#gameContainer{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction:row;
+    margin: 0 auto;
+    
+}
+
+.weapon{
+    height: 300px;
+    width: 33.333%;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+
+.weapon:hover{
+    margin-top: 40px;
+    
+}
+
+#rock{
+    background-image: url('/img/rock_paper_scissors__2x.png');
+    background-position: -5px -200px;
+    background-size: 310%;
+}
+
+#paper{
+    background-image: url('/img/rock_paper_scissors__2x.png');
+    background-position: -670px -210px;
+    background-size: 310%;
+}
+
+#scissors{
+    background-image: url('/img/rock_paper_scissors__2x.png');
+    background-position: -330px -220px;
+    background-size: 310%;
+}
+
+#results{
+    display: flex;
+    width: 330px;
+    font-size: 30px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+#results > div{
+    margin: 0 30px;
+
+}
+
+#gameText{
+    display: block;
+    width: 200px;
+    font-size: 40px;
+    margin: 0 auto;
+}
